@@ -15,3 +15,8 @@ while (i < miLista.length) {
   console.log(miLista[i]);
   i++; // Incrementamos el contador para evitar un bucle infinito
 }
+
+// Funcion arrow
+
+const saludo = () => "Hola mundo";
+console.log(saludo());
